@@ -10,7 +10,7 @@ data "template_file" "ingress_controller_values" {
   template = "${file("helm-ingress-controller/ingress-controller/values.yaml")}"
 
   vars {
-    cluster_sub_domain = "fuchicorp.com"
+    cluster_sub_domain = "tunscotech.com"
   }
 }
 

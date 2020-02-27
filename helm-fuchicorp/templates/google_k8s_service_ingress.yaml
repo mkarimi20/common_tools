@@ -9,14 +9,14 @@ metadata:
 spec:
   rules:
 
-  - host: nexus.fuchicorp.com
+  - host: nexus.tunscotech.com
     http:
       paths:
       - backend:
           serviceName: nexus-fuchicorp-service
           servicePort: {{ .Values.nexusport }}
 
-  - host: vault.fuchicorp.com
+  - host: vault.tunscotech.com
     http:
       paths:
       - backend:
@@ -24,7 +24,7 @@ spec:
           servicePort: {{ .Values.vaultport }}
   tls:
   - hosts:
-    - vault.fuchicorp.com
-    - nexus.fuchicorp.com
-    - grafana.fuchicorp.com
+    - vault.tunscotech.com
+    - nexus.tunscotech.com
+    - grafana.tunscotech.com
     secretName: tls-prod-cert

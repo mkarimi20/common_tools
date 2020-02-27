@@ -4,7 +4,7 @@ data "template_file" "jenkins_values" {
   vars {
     jenkins_user           = "${var.jenkins["admin_user"]}"
     jenkins_pass           = "${var.jenkins["admin_password"]}"
-    cluster_sub_domain     = "fuchicorp.com"
+    cluster_sub_domain     = "tunscotech.com"
     jenkins_auth_secret    = "${var.jenkins["jenkins_auth_secret"]}"
     jenkins_auth_client_id = "${var.jenkins["jenkins_auth_client_id"]}"
     git_token              = "${var.git_token}"

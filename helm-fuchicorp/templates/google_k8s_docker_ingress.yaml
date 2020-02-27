@@ -9,7 +9,7 @@ metadata:
   name: fuchicorp-docker-ingress
 spec:
   rules:
-  - host: docker.fuchicorp.com
+  - host: docker.tunscotech.com
     http:
       paths:
       - path: /
@@ -22,5 +22,5 @@ spec:
           servicePort: {{ .Values.repo_port }}
   tls:
   - hosts:
-    - docker.fuchicorp.com
+    - docker.tunscotech.com
     secretName: tls-docker-prod-cert

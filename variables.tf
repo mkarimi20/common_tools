@@ -93,3 +93,4 @@ variable "prometheus" {
     prometheus_endpoint = "prometheus.fuchicorp.com"
   }
 }
+

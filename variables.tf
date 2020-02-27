@@ -6,7 +6,7 @@ variable "grafana-dns_endpoint_grafana" {
   type = "map"
 
   default = {
-    tools = "grafana.fuchicorp.com"
+    tools = "grafana.tunscotech.com"
   }
 }
 
@@ -66,7 +66,7 @@ variable "jenkins" {
   type = "map"
 
   default = {
-    jenkins_endpoint       = "jenkins.fuchicorp.com"
+    jenkins_endpoint       = "jenkins.tunscotech.com"
     admin_user             = "admin"
     admin_password         = "password"
     jenkins_auth_client_id = "id"
@@ -78,7 +78,7 @@ variable "grafana" {
   type = "map"
 
   default = {
-    grafana_endpoint = "grafana.fuchicorp.com"
+    grafana_endpoint = "grafana.tunscotech.com"
     grafana-version  = "6.0.1"
     grafana_username = "admin"
     grafana_password = "password"
@@ -90,6 +90,6 @@ variable "prometheus" {
   type = "map"
 
   default = {
-    prometheus_endpoint = "prometheus.fuchicorp.com"
+    prometheus_endpoint = "prometheus.tunscotech.com"
   }
 }

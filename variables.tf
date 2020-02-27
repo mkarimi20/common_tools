@@ -11,7 +11,7 @@ variable "grafana-dns_endpoint_grafana" {
 }
 
 variable "grafana-datasource_dns_endpoint" {
-  default = "https://prometheus.fuchicorp.com/graph"
+  default = "https://prometheus.tunscotech.com/graph"
 }
 
 variable "cert_manager_version" {
@@ -59,7 +59,7 @@ variable "email" {
 }
 
 variable "google_project_id" {
-  default = "angular-unison-267720"
+  default = "pristine-skein-269300"
 }
 
 variable "jenkins" {

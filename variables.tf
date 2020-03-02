@@ -67,7 +67,7 @@ variable "google_domain_name" {
 }
 
 variable "cluster_sub_domain" {
-  default = "tunscotech.com"
+  
 }
 
 variable "jenkins" {

@@ -36,7 +36,7 @@ variable "email" {
 }
 
 variable "google_project_id" {
-  default = "angular-unison-267720"
+  default = "pristine-skein-269300"
 }
 
 variable "jenkins" {
@@ -63,6 +63,6 @@ variable "grafana" {
 }
 
 variable "google_domain_name" {
-  default = "fuchicorp.com"
+  default = "tunscotech.com"
   description = "Please change to your domain name"
 }

@@ -62,6 +62,11 @@ variable "google_project_id" {
   default = "pristine-skein-269300"
 }
 
+variable "google_domain_name" {
+  default = "tunscotech.com"
+}
+
+
 variable "jenkins" {
   type = "map"
 

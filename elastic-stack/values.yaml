@@ -47,11 +47,11 @@ nginx-ldapauth-proxy:
   #   requires:
   #     - name: "ELK-USER"
   #       filter: "cn=elkuser,ou=groups,dc=example,dc=com"
-  ingress:
-    enabled: true
-    hosts:
-      - "elk.tazagul.com"
-    annotations:
+    ingress:
+      enabled: true
+      hosts:
+        - "elk.tazagul.com"
+      annotations:
       kubernetes.io/ingress.class: nginx
   #   tls:
   #     - hosts:

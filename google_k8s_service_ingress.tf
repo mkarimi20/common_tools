@@ -15,31 +15,6 @@ resource "helm_release" "services_ingress" {
   name      = "services-ingress-${var.deployment_environment}"
   namespace = "${var.deployment_environment}"
   chart     = "./main-helm"
-
-  set {
-    name  = "nexusport"
-    value = "${var.nexus_service_port}"
-  }
-
-  set {
-    name  = "vaultport"
-    value = "${var.vault_service_port}"
-  }
-
-  set {
-    name  = "repo_port"
-    value = "${var.repo_port}"
-  }
-
-  set {
-    name  = "email"
-    value = "${var.email}"
-  }
-
-  set {
-    name = "domain_name"
-    value = "${var.google_domain_name}"
-  }
 }
 
 

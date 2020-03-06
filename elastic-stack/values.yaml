@@ -15,7 +15,7 @@ kibana:
     cert-manager.io/cluster-issuer: letsencrypt-prod
     # kubernetes.io/tls-acme: "true"
   # labels: {}
-  # path: /
+  path: /
   hosts:
   - elk.tazagul.net
 

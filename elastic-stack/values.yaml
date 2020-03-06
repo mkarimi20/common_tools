@@ -7,7 +7,7 @@ elasticsearch:
 kibana:
   enabled: true
   env:
-    ELASTICSEARCH_HOSTS: http://elk.tazagul.net
+    ELASTICSEARCH_HOSTS: http://{{ .Release.Name }}-elasticsearch-client:9200
 
 logstash:
   enabled: true
@@ -47,12 +47,12 @@ nginx-ldapauth-proxy:
   #   requires:
   #     - name: "ELK-USER"
   #       filter: "cn=elkuser,ou=groups,dc=example,dc=com"
-ingress:
-  enabled: true
-  hosts:
-    - "elk.tazagul.com"
-  annotations:
-    kubernetes.io/ingress.class: nginx
+  # ingress:
+  #   enabled: true
+  #   hosts:
+  #     - "elk.example.com"
+  #   annotations:
+  #     kubernetes.io/ingress.class: nginx
   #   tls:
   #     - hosts:
   #       - elk.example.com

@@ -133,7 +133,7 @@ livenessProbe:
   httpGet:
     path: /
     port: monitor
-  initialDelaySeconds: 20
+  initialDelaySeconds: 50
   # periodSeconds: 30
   # timeoutSeconds: 30
   # failureThreshold: 6

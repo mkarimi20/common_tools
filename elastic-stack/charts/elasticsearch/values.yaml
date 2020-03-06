@@ -147,7 +147,7 @@ client:
     minAvailable: 1
     # maxUnavailable: 1
   ingress:
-    enabled: false
+    enabled: true
     # user: NAME
     # password: PASSWORD
     annotations: {}
@@ -155,7 +155,7 @@ client:
       # kubernetes.io/tls-acme: "true"
     path: /
     hosts:
-      - chart-example.local
+      - elastic.tazagul.net
     tls: []
     #  - secretName: chart-example-tls
     #    hosts:

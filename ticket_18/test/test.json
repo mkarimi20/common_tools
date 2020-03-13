@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "spry-sensor-262821",
+  "private_key_id": "0721411fb5fa5cf0c75d1de43e1e71099bea13b3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDIqBUOCOR3qHFX\neQaE3mEUy11WfETGLxIHfXs1bORoc3L/G8N0CxC6v3iG+zCguXoRNT/Ek9NqGAWB\nQapZ05bwA5UizHMtE7U2fAl3sEmIEd8BTTWm3vfkaF03xgJ9fTl2Bjp4C/HjY5rm\nERCW0+F+K/8AAuz71likjlIjNqjJHYiLmSDUzX25WDIqQ7KOQ0yVFMGEpTqg9oIf\nwgPDpsCGoTwQ/XAsyFEPiExTpR639y05z8I/yxhKwgw+p33VeAcAVPivUzjWgD+a\nvxvCNSzBRV5nCjbArxBGmB6IOOhZ3H8C1ZEJakYq5a7wsQfCenGn87xgwqTmMrkd\nfx8Tsd9XAgMBAAECggEAPAgFXJCOgboURr4/lArP8p+xCgndrYkxlKoW7XHpl9JK\nakZNIG+bDrPwBDosXzl+ap2KuW4chxYut3AE3iDufFomCSYvoyHNSkKrtnI4XYwz\nMrl9vrHgaiZLFT+ZSR/ozAWrAnVYZdZL5l7enrE/OjdBcChv7BxBouGtczmMH7a9\nF0rs7lmAnIgNHSBT5xxKWsDvNSqUPNo8sIxGNGEhQvnu1HEbnVeqQK+gAGmP9RzU\nsd/wucmY9Ut8X3sM+67CPrOCXw07Eclztw/jx5iPOfSKhKBziOu0b3Mt6xhStwot\nAjzS0tPSxvXePpmwuA65fpj6tuZ8Fwas22E8z0d7cQKBgQD3u/+szNezYjH+6Ihg\nBv8iVTcY8RbvtFgTx7nynfQiMeo1tzOk06S+dYDFM3SjZvy8LXyoF4IPXlJ5j60E\nHuRCjmJ/Jd8rgdWOYQKLhayj6CRyP8SktrzwPq7A3OY25lJwvEPSRW54joAhhQHK\ntq0h5pSTj53lCj1BGGEMm5KUuQKBgQDPWfj/jMdjTC+lDjEUQYP+FBwLEuLeKFIA\n/3t9fsCN9OPqcagOMSFHrbUNubAhgSWOj1AUCZJxMda2CoaG8WaAT1m5n8+1Iig8\n1SdrnpjEJPN6ve6L3w1HMtViccDknYEmitt5i1KfFIWNJ0Tcy+JkA9LMHfCMqGN1\ndc6y5sksjwKBgQCjWR38BdGQoYXPy+noT5S5QbEjzAxQn/yXhlFwzX/lcD47jwIJ\ng9gUEYyH+ybEe6rYNbIFcAK9OXduWjM+DVR7IkGGDyW5HVIAIK057Dlqli45+xwh\nc7DfRKWb28wclP/0/95Ebq2p5mRMNdR5orxEJzL+nWsCVB8Rpg6P7qDXWQKBgBpt\njEf+CHfGgRgXe/fp9cnPhFeA+7t3BiSsa2/uVNqDCP2bqODOMECzii0KqsFKdZ/6\n8ijro2ecA5LGOqk+YWMfOf9nuBCNHvXJ8TFNUIlHcGUHijz3m/ikKQBYIU7CKHDi\nJ+EQ+eHeurrn82X08pDuz9JGSp+S4sJY1pSEx8VPAoGAch/jtr66UJSM7yx7Yz4Y\npMXR8eknzHtTbUiPAh9DfJUkmNxs7P6G8wfDu0Bn8jexUXeN+hG8vppce3bbkPuE\naHrGgl2AvFSlIJH967yfZDv2eka3/6SlUv2qtkkBADQr/5mMpR99INrP2faQAEsz\nIaxrcOHq/9G4hket82FXmS8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "common-team-one@spry-sensor-262821.iam.gserviceaccount.com",
+  "client_id": "100904534928439697160",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/common-team-one%40spry-sensor-262821.iam.gserviceaccount.com"
+}

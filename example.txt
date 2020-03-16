@@ -1,0 +1,38 @@
+        * kubernetes_namespace.prod_namespace: 1 error occurred:
+        * kubernetes_namespace.prod_namespace: namespaces "prod-students" already exists
+
+
+        * kubernetes_secret.tiller: 1 error occurred:
+        * kubernetes_secret.tiller: secrets "tiller" already exists
+
+
+        * kubernetes_namespace.qa_namespace: 1 error occurred:
+        * kubernetes_namespace.qa_namespace: namespaces "qa-students" already exists
+
+
+        * kubernetes_secret.external_dns_secret: 1 error occurred:
+        * kubernetes_secret.external_dns_secret: secrets "google-service-account" already exists
+
+
+        * kubernetes_namespace.qa: 1 error occurred:
+        * kubernetes_namespace.qa: namespaces "qa" already exists
+
+
+        * kubernetes_namespace.dev: 1 error occurred:
+        * kubernetes_namespace.dev: namespaces "dev" already exists
+
+
+        * kubernetes_namespace.test: 1 error occurred:
+        * kubernetes_namespace.test: namespaces "test" already exists
+
+
+        * kubernetes_namespace.service_tools: 1 error occurred:
+        * kubernetes_namespace.service_tools: namespaces "tools" already exists
+
+
+        * kubernetes_namespace.prod: 1 error occurred:
+        * kubernetes_namespace.prod: namespaces "prod" already exists
+
+
+        * kubernetes_namespace.dev_namespace: 1 error occurred:
+        * kubernetes_namespace.dev_namespace: namespaces "dev-students" already exists

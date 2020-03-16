@@ -1,0 +1,24 @@
+environment = "tools"
+google_bucket_name = "fuchicorp-bucket-team-3"
+deployment_name = "common_tools"
+google_project_id = "common-project-team-3"
+google_domain_name = "burakkarakas.net"
+vault_token = "Wq32vuLCCiLCcc7x6VAtB0yxRXZMRlWPICYPZjS4"
+credentials = "common-service-account.json"
+deployment_environment = "tools"
+jenkins = {
+  admin_user             = "admin"
+  admin_password         = "B1JsVZtr4rvJfmnnafqRjTEKLsT"
+  jenkins_auth_client_id = "ba7348064ebd25605840"
+  jenkins_auth_secret    = "d8d70fcecc0229c36a3acf6b3d37e54155ce6bd3"
+  git_token = "10dad2a3e1f7d68b5efe838b7e3a4d154f02d1a0"
+}
+grafana = {
+  grafana_username                = "admin"
+  grafana_password                = "vghT7vFHDRnEHmC"
+  grafana-name                    = "grafana"
+  grafana_auth_client_id          = "0ed933f49cc93e106df7"
+  grafana_client_secret           = "119efcb42131fcb11ba4c085b234cf54342e8823"
+  smtp_username                   = "fuchicorptesting@gmail.com"
+  smtp_password                   = "Shn!NF9:Z:iD05Iyxy"
+}

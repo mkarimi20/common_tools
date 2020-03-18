@@ -6,7 +6,7 @@ module "dash_auth_deployer" {
   deployment_path        = "dashboard-auth"
   github_client_id       = "${var.github_client_id}"
   github_client_secret   = "${var.github_client_secret}"
-  cooki_secret           = "${var.rcooki_secret}"
+  cooki_secret           = "${var.cooki_secret}"
 
 
 

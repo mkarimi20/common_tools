@@ -4,14 +4,14 @@ module "dash_auth_deployer" {
   deployment_environment = "kube-system"
   deployment_endpoint    = "dashboard.${var.google_domain_name}"
   deployment_path        = "dashboard-auth"
-  github_client_id       = "${var.github_client_id}"
-  github_client_secret   = "${var.github_client_secret}"
-  cooki_secret           = "${var.cooki_secret}"
+  
 
-
-
-
-
-
-
+   template_custom_vars = {
+    
+    
+    github_client_id       = "${var.github_client_id}"
+    github_client_secret   = "${var.github_client_secret}"
+    cooki_secret           = "${var.cooki_secret}"
+    
+  }
 }

@@ -30,7 +30,7 @@ spec:
           # Register a new application
           # https://github.com/settings/applications/new
           env:
-          {{- toYaml .Values.globalEnvs | nindent 12 }}
+          {{- toYaml .Values.env | nindent 12 }}
           - name: {{ .Chart.Name }}
             securityContext:
               {{- toYaml .Values.securityContext | nindent 12 }}

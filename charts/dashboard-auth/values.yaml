@@ -67,7 +67,7 @@ tolerations: []
 
 affinity: {}
 
-globalEnvs: 
+env: 
 - name: OAUTH2_PROXY_CLIENT_ID
   value: ${github_client_id}
 - name: OAUTH2_PROXY_CLIENT_SECRET

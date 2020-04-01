@@ -2,7 +2,7 @@ data "google_client_config" "default" {}
 
 data "google_container_cluster" "mycluster" {
   name = "fuchicorp_cluster"
-  location = central1-a
+  location = central1
 }
 
 provider "kubernetes" {
